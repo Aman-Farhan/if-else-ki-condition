@@ -28,5 +28,4 @@ if (operator === "+") {
 } else {
   result = "Invalid operator dala hai!";
 }
-
 alert("Result: " + result);
