@@ -34,5 +34,3 @@ alert("Result: " + result);
 
 
 
-
-
