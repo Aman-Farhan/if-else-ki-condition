@@ -31,3 +31,4 @@ if (operator === "+") {
 
 
 alert("Result: " + result);
+
