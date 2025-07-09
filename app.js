@@ -1,36 +1,15 @@
-// let userInput = +prompt("enter a num ");
-// let userInput1 = +prompt("enter a num ");
-// let userInput2 = prompt("enter a num ");
+let userInput = +prompt("enter a num ");
+let userInput1 = +prompt("enter a num ");
+let userInput2 = prompt("enter a num ");
 
-// if ()
-
-
-
-
-let num1 = parseFloat(prompt("Pehla number daalo:"));
-let num2 = parseFloat(prompt("Dosra number daalo:"));
-let operator = prompt("Kya karna hai? +, -, *, /");
-
-let result;
-
-if (operator === "+") {
-  result = num1 + num2;
-} else if (operator === "-") {
-  result = num1 - num2;
-} else if (operator === "*") {
-  result = num1 * num2;
-} else if (operator === "/") {
-  if (num2 !== 0) {
-    result = num1 / num2;
-  } else {
-    result = "0 se divide nahi kar sakte!";
-  }
+if (userInput2 === "+"){
+    console.log(userInput + userInput1);
+} else if (userInput2 === "-"){
+    console.log(userInput - userInput1);
+} else if (userInput2 === "*"){
+    console.log(userInput * userInput1);
+} else if (userInput !== "0"){
+    console.log(userInput / userInput1);
 } else {
-  result = "Invalid operator dala hai!";
+    console.log("user invalid num dala hai");
 }
-
-
-alert("Result: " + result);
-
-
-
